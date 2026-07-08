@@ -12,6 +12,9 @@ Astock (QMT Agent Desktop) 安装包发布仓库。
 
 ## 版本历史
 
+- **v0.1.12**: 优化设置外观与主题管理，并修复发布流程的安装包完整性问题
+  - 重构 appearance settings，新增主题管理能力
+  - 串行化 macOS / Windows 发布任务，避免重复 GitHub Release 导致 Windows 安装包不可见
 - **v0.1.11**: Maintenance release
 - **v0.1.7**: 大规模代码重构与功能增强
   - **IPC 模块化拆分**：主进程 IPC 拆分为 system / pi-agent / astock-api / settings / memory / notifications / skills / conversations / market / workspace 独立模块，新增模块注册表与测试

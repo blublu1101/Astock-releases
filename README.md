@@ -12,6 +12,7 @@ Astock (QMT Agent Desktop) 安装包发布仓库。
 
 ## 版本历史
 
+- **v0.1.11**: Maintenance release
 - **v0.1.7**: 大规模代码重构与功能增强
   - **IPC 模块化拆分**：主进程 IPC 拆分为 system / pi-agent / astock-api / settings / memory / notifications / skills / conversations / market / workspace 独立模块，新增模块注册表与测试
   - **Hooks 模块化拆分**：抽取 useChat（FE-01 会话-ID 守卫）、useNotifications / useAgentRuns / useHydration（FE-03 allSettled）、useConversations / useWorkspace / useMarket、useTheme / useSettings（无 Context）
